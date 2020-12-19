@@ -9,12 +9,18 @@ public class Entity {
     public int age;
 
     // TODO Getters and setters
+
     public void setId(int id) {
         this.id = id;
+
     }
 
     public int getId() {
-        return this.id;
+        return id;
+    }
+  
+      public void setId(int id) {
+        this.id = id;
     }
 
     public void setName(String name) {
@@ -22,7 +28,7 @@ public class Entity {
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public void setClasses(List<Materie> classes) {
@@ -30,7 +36,7 @@ public class Entity {
     }
 
     public List<Materie> getClasses() {
-        return this.classes;
+        return classes;
     }
 
     public void setAge(int age) {
@@ -38,6 +44,6 @@ public class Entity {
     }
 
     public int getAge() {
-        return this.age;
+        return age;
     }
 }
