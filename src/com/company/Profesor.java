@@ -7,11 +7,21 @@ public class Profesor extends Entity{
 
     // TODO Getters and setters
 
-    public void evaluateStudent() {
-        // TODO
+
+    public void setStudents(List<Student> students) {
+        this.students = students;
     }
 
-    public void teachCourse(Materie classBeingTaught) {
-        // TODO
+    public List<Student> getStudents() {
+        return this.students;
     }
+
+    public void evaluateStudent(Student studentEvaluated, boolean evaluateStudent) {
+        studentEvaluated.setStudentEvaluated(evaluateStudent);
+    }
+
+    public void teachCourse(Materie classBeingTaught, boolean teachCourse) {
+       classBeingTaught.setClassBeingTaught(teachCourse);
+    }
+
 }
