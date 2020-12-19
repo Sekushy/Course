@@ -10,7 +10,6 @@ public class Entity {
 
     // TODO Getters and setters
 
-
     public void setId(int id) {
         this.id = id;
 
@@ -18,6 +17,10 @@ public class Entity {
 
     public int getId() {
         return id;
+    }
+  
+      public void setId(int id) {
+        this.id = id;
     }
 
     public void setName(String name) {
